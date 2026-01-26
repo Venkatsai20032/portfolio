@@ -1,0 +1,60 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #1c1f26;
+  color: #f1f1f1;
+}
+.header{position:fixed; top:0; left: 0; width:100%; padding: 20px 10%; position: transparent; display: flex; justify-content: space-between; align-items: center; z-index:100; }
+.logo{font-size: 25px; color: #fff; text-decoration: none; font-weight: 600; cursor: default ;}
+.navbar { display:flex; gap:40px; margin-left: 850px;}
+.navbar a {font-size:18px; color:#fff; text-decoration: none; font-weight: 500; transition:.3s;}
+.navbar a:hover,.navbar a.active {color: #0ef ;}
+
+/* Container */
+.container {
+  width: 80%;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+/* Page Title */
+.page-title {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  color: #0ef;
+}
+
+/* Education Cards */
+.edu-card {
+  background: #2a2e38;
+  border: 2px solid #ff4d4d;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+  transition: transform 0.2s ease-in-out;
+}
+
+.edu-card:hover {
+  transform: scale(1.02);
+  background: #1a1a1a;
+}
+
+/* Headings */
+.edu-card h2 {
+  color: #ff4d4d;
+  margin-bottom: 15px;
+}
+
+/* Paragraphs */
+.edu-card p {
+  margin: 6px 0;
+  font-size: 1.1em;
+}
+
+.edu-card strong {
+  color: #fff;
+}

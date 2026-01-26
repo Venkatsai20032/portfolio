@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #1c1f26;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.header{position:fixed; top:0; left: 0; width:100%; padding: 20px 10%; position: transparent; display: flex; justify-content: space-between; align-items: center; z-index:100; }
+.logo{font-size: 25px; color: #fff; text-decoration: none; font-weight: 600; cursor: default ;}
+.navbar { display:flex; gap:40px; margin-left: 850px;}
+.navbar a {font-size:18px; color:#fff; text-decoration: none; font-weight: 500; transition:.3s;}
+.navbar a:hover,.navbar a.active {color: #0ef ;}
+
+#projects {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.section-title {
+    text-align: center;
+    color: #00eaff;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.project-card {
+    background: #1f1f1f;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border-left: 4px solid #ff3366;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.project-name {
+    color: #ff3366;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: #00eaff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.label {
+    font-weight: bold;
+    color: #ff3366;
+    margin-top: 10px;
+}
+
+.value {
+    margin-left: 10px;
+    color: #dcdcdc;
+}
+
+.desc {
+    color: #dcdcdc;
+    margin-left: 10px;
+    line-height: 1.5;
+}

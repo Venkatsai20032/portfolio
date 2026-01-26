@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #1c1f26;
+  color: #f5f5f5;
+}
+.header{position:fixed; top:0; left: 0; width:100%; padding: 20px 10%; position: transparent; display: flex; justify-content: space-between; align-items: center; z-index:100; }
+.logo{font-size: 25px; color: #fff; text-decoration: none; font-weight: 600; cursor: default ;}
+.navbar { display:flex; gap:40px; margin-left: 850px;}
+.navbar a {font-size:18px; color:#fff; text-decoration: none; font-weight: 500; transition:.3s;}
+.navbar a:hover,.navbar a.active {color: #0ef ;}
+
+.internships {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.internships h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #0ef;
+}
+
+.internship-card {
+  background: #2a2e38;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+}
+
+.internship-card h2 {
+  color: #ff4d4d;
+}
+
+.internship-card p {
+  margin: 6px 0;
+}
+
+.internship-card ul {
+  margin: 10px 0 15px 20px;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: #ff4d4d;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.project-link:hover {
+  background: #ffcc66;
+  color: #000;
+}
